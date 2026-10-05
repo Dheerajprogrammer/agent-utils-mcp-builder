@@ -14,7 +14,7 @@
     "./middleware": { "types": "./dist/middleware/index.d.ts", "import": "./dist/middleware/index.js", "require": "./dist/middleware/index.cjs" },
     "./openapi": { "types": "./dist/openapi/index.d.ts", "import": "./dist/openapi/index.js", "require": "./dist/openapi/index.cjs" }
   },
-  "files": ["dist", "README.md", "LICENSE", "SECURITY.md"],
+  "files": ["dist", "README.md", "LICENSE", "SECURITY.md", "CONTRIBUTING.md"],
   "keywords": ["mcp", "model-context-protocol", "ai", "tools", "agent"],
   "engines": { "node": ">=18.17" },
   "publishConfig": { "access": "public" },

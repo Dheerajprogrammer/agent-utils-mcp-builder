@@ -7,7 +7,7 @@ Build Model Context Protocol (MCP) servers with an Express-like, TypeScript-firs
 
 **Documentation:** [dheerajprogrammer.github.io/agent-utils-mcp-builder](https://dheerajprogrammer.github.io/agent-utils-mcp-builder/)
 
-**Contributing:** Read [CONTRIBUTING.md](CONTRIBUTING.md), open an [issue](https://github.com/Dheerajprogrammer/agent-utils-mcp-builder/issues), or submit a pull request.
+**Contributing:** Read the [contribution guide](https://github.com/Dheerajprogrammer/agent-utils-mcp-builder/blob/main/CONTRIBUTING.md), open an [issue](https://github.com/Dheerajprogrammer/agent-utils-mcp-builder/issues), or submit a pull request.
 
 ## Contents
 
@@ -250,7 +250,7 @@ throw new MCPError({
 
 ## Security
 
-Validate all tool input, authenticate every sensitive request, enforce permissions server-side, and apply explicit confirmation for destructive operations. Avoid logging credentials or placing secrets in tool output. Review [SECURITY.md](SECURITY.md) before deploying publicly.
+Validate all tool input, authenticate every sensitive request, enforce permissions server-side, and apply explicit confirmation for destructive operations. Avoid logging credentials or placing secrets in tool output. Review the [security policy](https://github.com/Dheerajprogrammer/agent-utils-mcp-builder/blob/main/SECURITY.md) before deploying publicly.
 
 ## Development
 
@@ -260,8 +260,8 @@ npm run validate
 npm run build
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance.
+See the [contribution guide](https://github.com/Dheerajprogrammer/agent-utils-mcp-builder/blob/main/CONTRIBUTING.md) for contribution guidance.
 
 ## Support
 
-For questions, documentation feedback, or issues, email [dheerajatoria@gmail.com](mailto:dheerajatoria@gmail.com). For security vulnerabilities, follow the private reporting guidance in [SECURITY.md](SECURITY.md).
+For questions, documentation feedback, or issues, email [dheerajatoria@gmail.com](mailto:dheerajatoria@gmail.com). For security vulnerabilities, follow the private reporting guidance in the [security policy](https://github.com/Dheerajprogrammer/agent-utils-mcp-builder/blob/main/SECURITY.md).
