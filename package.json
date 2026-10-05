@@ -1,23 +1,57 @@
 {
   "name": "@agent-utils/mcp-builder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Developer-first toolkit for building production-ready Model Context Protocol servers.",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "bin": { "mcp-builder": "./dist/cli/index.js" },
-  "exports": {
-    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.cjs" },
-    "./testing": { "types": "./dist/testing/index.d.ts", "import": "./dist/testing/index.js", "require": "./dist/testing/index.cjs" },
-    "./middleware": { "types": "./dist/middleware/index.d.ts", "import": "./dist/middleware/index.js", "require": "./dist/middleware/index.cjs" },
-    "./openapi": { "types": "./dist/openapi/index.d.ts", "import": "./dist/openapi/index.js", "require": "./dist/openapi/index.cjs" }
+  "bin": {
+    "mcp-builder": "./dist/cli/index.js"
   },
-  "files": ["dist", "README.md", "LICENSE", "SECURITY.md", "CONTRIBUTING.md"],
-  "keywords": ["mcp", "model-context-protocol", "ai", "tools", "agent"],
-  "engines": { "node": ">=18.17" },
-  "publishConfig": { "access": "public" },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./testing": {
+      "types": "./dist/testing/index.d.ts",
+      "import": "./dist/testing/index.js",
+      "require": "./dist/testing/index.cjs"
+    },
+    "./middleware": {
+      "types": "./dist/middleware/index.d.ts",
+      "import": "./dist/middleware/index.js",
+      "require": "./dist/middleware/index.cjs"
+    },
+    "./openapi": {
+      "types": "./dist/openapi/index.d.ts",
+      "import": "./dist/openapi/index.js",
+      "require": "./dist/openapi/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "tools",
+    "agent"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -32,7 +66,9 @@
     "validate": "npm run lint && npm run typecheck && npm test",
     "prepublishOnly": "npm run validate && npm run build"
   },
-  "dependencies": { "zod": "^3.24.2" },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
   "devDependencies": {
     "@types/node": "^22.13.10",
     "@vitest/coverage-v8": "^3.0.7",
@@ -44,7 +80,12 @@
     "vitest": "^3.0.7",
     "vitepress": "^1.6.3"
   },
-  "repository": { "type": "git", "url": "git+https://github.com/Dheerajprogrammer/agent-utils-mcp-builder.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dheerajprogrammer/agent-utils-mcp-builder.git"
+  },
   "homepage": "https://github.com/Dheerajprogrammer/agent-utils-mcp-builder#readme",
-  "bugs": { "url": "https://github.com/Dheerajprogrammer/agent-utils-mcp-builder/issues" }
+  "bugs": {
+    "url": "https://github.com/Dheerajprogrammer/agent-utils-mcp-builder/issues"
+  }
 }
