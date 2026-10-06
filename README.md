@@ -4,6 +4,7 @@ Build Model Context Protocol (MCP) servers with an Express-like, TypeScript-firs
 
 [![npm version](https://img.shields.io/npm/v/@agent-utils/mcp-builder)](https://www.npmjs.com/package/@agent-utils/mcp-builder)
 [![GitHub repository](https://img.shields.io/badge/GitHub-agent--utils--mcp--builder-181717?logo=github)](https://github.com/Dheerajprogrammer/agent-utils-mcp-builder)
+[![Sponsor Dheerajprogrammer](https://img.shields.io/badge/Sponsor-Dheerajprogrammer-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Dheerajprogrammer)
 
 **Documentation:** [dheerajprogrammer.github.io/agent-utils-mcp-builder](https://dheerajprogrammer.github.io/agent-utils-mcp-builder/)
 
