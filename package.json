@@ -1,6 +1,6 @@
 {
   "name": "@agent-utils/mcp-builder",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Developer-first toolkit for building production-ready Model Context Protocol servers.",
   "license": "MIT",
   "type": "module",
